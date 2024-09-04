@@ -43,6 +43,25 @@ public class Main {
 
 // задание 5
 
+        var frog = 3.5;
+        System.out.println(frog);
+
+        frog = 3.5 * 10;
+        System.out.println(frog);
+
+        frog = 3.5 * 10 / 3.5;
+        System.out.println(frog);
+
+        frog = 3.5 * 10 / 3.5 + 4;
+        System.out.println(frog);
+
+
+
+
+
+
+
+
 
 
     }
