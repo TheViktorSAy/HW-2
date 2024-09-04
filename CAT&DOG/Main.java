@@ -1,12 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
 
-        var box = 10;
-        System.out.println(box);
 
-        var result = box / 2 ;
-        System.out.println(result);
+        var dog = 10;
+        System.out.println(dog);
+        var cat = 3.6;
+        System.out.println(cat);
+
+        var paper = 763789;
+        System.out.println(paper);
+
 
     }
 
