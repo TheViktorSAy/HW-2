@@ -22,7 +22,7 @@ public class Main {
         System.out.println(resultPaper);
 
 // задание 3
-                resultDog = resultDog - 3.5;
+        resultDog = resultDog - 3.5;
         System.out.println(resultDog);
 
         resultCat = resultCat - 1.6;
@@ -31,8 +31,17 @@ public class Main {
         resultPaper = resultPaper - 7639;
         System.out.println(resultPaper);
 
+// задание 4
+    var friend = 19;
+    System.out.println(friend);
 
+    friend = friend + 2;
+    System.out.println(friend);
 
+    friend = (friend + 2) / 7;
+    System.out.println(friend);
+
+// задание 5
 
 
 
