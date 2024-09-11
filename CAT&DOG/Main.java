@@ -66,13 +66,22 @@ public class Main {
         System.out.println(result2);
 
 // Задание 7
-
         var result3 = secondBoxer % firstBoxer;
         System.out.println(result3);
 
+//Задание 8
+        var workDone = 640;
+        var timePerEmployee = 8;
+        var totalEmployeesInTheCompany = workDone / timePerEmployee;
+        System.out.println ("Всего работников в компании "  + totalEmployeesInTheCompany + " человек");
 
 
+        totalEmployeesInTheCompany = totalEmployeesInTheCompany + 94;
+        System.out.println(totalEmployeesInTheCompany);
 
+        timePerEmployee = workDone / totalEmployeesInTheCompany;
+        System.out.println(timePerEmployee);
+        System.out.println("Если в компании работает " + totalEmployeesInTheCompany + " человека, то всего " + timePerEmployee + " часа работы может быть поделено между сотрудниками");
 
     }
 
