@@ -65,9 +65,10 @@ public class Main {
         var result2 = firstBoxer - secondBoxer;
         System.out.println(result2);
 
+// Задание 7
 
-
-
+        var result3 = secondBoxer % firstBoxer;
+        System.out.println(result3);
 
 
 
