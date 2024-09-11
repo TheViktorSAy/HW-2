@@ -32,17 +32,16 @@ public class Main {
         System.out.println(resultPaper);
 
 // задание 4
-    var friend = 19;
-    System.out.println(friend);
+        var friend = 19;
+        System.out.println(friend);
 
-    friend = friend + 2;
-    System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
 
-    friend = (friend + 2) / 7;
-    System.out.println(friend);
+        friend = (friend + 2) / 7;
+        System.out.println(friend);
 
 // задание 5
-
         var frog = 3.5;
         System.out.println(frog);
 
@@ -55,6 +54,16 @@ public class Main {
         frog = 3.5 * 10 / 3.5 + 4;
         System.out.println(frog);
 
+
+
+// Задание 6
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        var result = firstBoxer + secondBoxer;
+        System.out.println(result);
+
+        var result2 = firstBoxer - secondBoxer;
+        System.out.println(result2);
 
 
 
