@@ -12,24 +12,24 @@ public class Main {
         System.out.println(paper);
 
 // задание 2
-        var resultDog = dog + 4;
-        System.out.println(resultDog);
+        dog = dog + 4;
+        System.out.println(dog);
 
-        var resultCat = cat + 4;
-        System.out.println(resultCat);
+        cat = cat + 4;
+        System.out.println(cat);
 
-        var resultPaper = paper + 4;
-        System.out.println(resultPaper);
+        paper = paper + 4;
+        System.out.println(paper);
 
 // задание 3
-        resultDog = resultDog - 3.5;
-        System.out.println(resultDog);
+        dog = dog - 3.5;
+        System.out.println(dog);
 
-        resultCat = resultCat - 1.6;
-        System.out.println(resultCat);
+        cat = cat - 1.6;
+        System.out.println(cat);
 
-        resultPaper = resultPaper - 7639;
-        System.out.println(resultPaper);
+        paper = paper - 7639;
+        System.out.println(paper);
 
 // задание 4
         var friend = 19;
@@ -82,6 +82,10 @@ public class Main {
         timePerEmployee = workDone / totalEmployeesInTheCompany;
         System.out.println(timePerEmployee);
         System.out.println("Если в компании работает " + totalEmployeesInTheCompany + " человека, то всего " + timePerEmployee + " часа работы может быть поделено между сотрудниками");
+
+
+
+
 
     }
 
